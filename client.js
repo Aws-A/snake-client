@@ -5,7 +5,7 @@ const { IP, PORT, Name } = require("./constants");
 
 const connect = function () {
   const conn = net.createConnection({
-    host: IP, // IP addre
+    host: IP, // IP address
     port: PORT // PORT number here,
   });
 
@@ -15,6 +15,7 @@ const connect = function () {
 
   conn.on("connect", () => {
     conn.write("Move: up");
+    
   });
 
   conn.on("connect", () => {

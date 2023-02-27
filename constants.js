@@ -1,5 +1,5 @@
-const IP = "127.0.0.1";
-const port =  50541;
+const IP = "10.3.86.222";
+const PORT =  50541;
 const Name = "Name: A.A";
 
 module.exports = {
